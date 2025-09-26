@@ -6,7 +6,7 @@ public class Main
         Scanner scan = new Scanner(System.in);
         System.out.println("------------------------------------------");
 
-        System.out.println("|  Do not use any symbols such as ($ or %) while inputing data  | "); //Instructions for the user
+        System.out.println("|  Do not use any symbols such as ($ or %) while you input data  | "); //Instructions for the user
 
         System.out.println("------------------------------------------");
         //the prompts for the user inputs are here
@@ -18,6 +18,7 @@ public class Main
         int amtPeople = scan.nextInt();
 
         System.out.println("---------------------");
+        //after this is the output
 //the tip amount
         double totalTipAmt = billAmt * (tipPerc/100.0); //The actual math is at the start of each "Section" of code
         double roundedTipAmt = Math.round(totalTipAmt * 100.0) / 100.0; //rounding did not work well with just math round so I had to format it too
