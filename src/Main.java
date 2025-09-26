@@ -5,6 +5,10 @@ public class Main
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         System.out.println("------------------------------------------");
+
+        System.out.println("|  Do not use any symbols such as ($ or %) while inputing data  | "); //Instructions for the user
+
+        System.out.println("------------------------------------------");
         //the prompts for the user inputs are here
         System.out.print("Enter your Bill: $");//bill
         double billAmt = scan.nextDouble();
